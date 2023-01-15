@@ -90,6 +90,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: 260px;
 }
 
 .contact-info__block--center {
@@ -130,6 +131,7 @@ body {
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
+    margin: auto;
 }
 
 .intro {
